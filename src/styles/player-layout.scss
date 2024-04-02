@@ -1,0 +1,24 @@
+
+.player-layout-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 10fr 1fr;
+    .screen {
+      background-color: #121212;
+    }
+    .player{
+        background-color: #333a3a;
+        .audio-player {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            top: 20px;
+           
+          }
+    }
+  
+
+  }
+  

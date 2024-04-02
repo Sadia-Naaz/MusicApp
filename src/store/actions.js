@@ -1,0 +1,4 @@
+export const ActionTypes = {
+     TOGGLE_PLAY_PAUSE: "TOGGLE_PLAY_PAUSE",
+    TOGGLE_LIKE_UNLIKE: "TOGGLE_LIKE_UNLIKE"
+}

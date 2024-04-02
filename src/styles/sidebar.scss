@@ -1,0 +1,35 @@
+
+.sidebar-container {
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 10;
+    width: 30vw;
+    overflow-y: scroll;
+   
+    .close:hover{
+    cursor: pointer;
+    }
+    h1{
+        position: fixed;
+        padding-bottom: 2rem;
+        .like{
+            font-size: 2rem !important;
+            color: red;
+            
+        }
+    }
+    .likedSongs{
+        display: flex;
+        flex-direction: column;
+        
+
+        
+    }
+   
+  }
+  
